@@ -1,4 +1,4 @@
-# 💱 Currency Conversion API
+# Currency Conversion API
 
 Backend técnico para conversión de divisas (FIAT y Crypto) con:
 - Node.js + FeathersJS
@@ -7,7 +7,7 @@ Backend técnico para conversión de divisas (FIAT y Crypto) con:
 - Joi Validations
 - PDF Reports
 
-## 🚀 Setup
+## Setup
 
 ```bash
 git clone https://github.com/usuario/currency-conversion-api.git
@@ -17,7 +17,7 @@ cp .env.example .env
 npm run dev
 ```
 
-## 📡 Endpoints
+##  Endpoints
 
 ### `GET /rates`
 Obtiene tasas guardadas.
@@ -39,7 +39,7 @@ Body:
 ### `GET /report`
 Descarga PDF con reporte diario.
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 npm test
